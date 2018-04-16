@@ -1,0 +1,29 @@
+{
+  "name": "esprezzo-crowdsale",
+  "version": "1.0.0",
+  "description": "Development",
+  "scripts": {
+    "start": "ganache-cli --port 7545 -e 1000 --mnemonic 'manage slow ask bicycle enjoy either swear always ticket child catch phone'",
+    "test": "scripts/test.sh"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.8.0"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "^4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esprezzo/esprezzo-crowdsale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esprezzo/esprezzo-crowdsale/issues"
+  },
+  "homepage": "https://github.com/esprezzo/esprezzo-crowdsale#readme"
+}

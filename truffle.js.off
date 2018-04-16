@@ -1,0 +1,27 @@
+var HDWalletProvider = require("truffle-hdwallet-provider");
+var infura_apikey = "KbQuP7xkP1ZYNhJkUOXF"; // Either use this key or get yours at https://infura.io/signup. It's free.
+var mnemonic = "poem magnifier thousand preseason salvage uncross entitle crewless dipped eskimo rejoin self";
+
+module.exports = {
+  networks: {
+    development: {
+      host: "localhost",
+      port: 7545,
+      gas: 6500000,
+      network_id: "5777"
+    },
+    kovan: {
+     // provider: new HDWalletProvider(mnemonic, "https://ropsten.infura.io/" + infura_apikey),
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: 42,
+      gas: 4700000
+    },
+  },
+  solc: {
+     optimizer: {
+       enabled: true,
+       runs: 200
+     }
+  }
+};
