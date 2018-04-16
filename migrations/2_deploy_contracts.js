@@ -8,6 +8,7 @@ module.exports = function(deployer) {
     endTime,
     6257, 
     "0xe14dfcee0e56224d86ad35359b1f0e4a15453453", // Kovan test
+    //"0x5754B65b516b7ecD7e1fDF20E4473766670Dc4e9", // Local test
     web3.toWei(2, 'ether'),
     web3.toWei(55000, 'ether') // 55000 ETH
   );
