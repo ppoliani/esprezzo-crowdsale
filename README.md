@@ -31,28 +31,3 @@
 - Base price: 1 ETH = 4635 EZP
 
 
-
-Running migration: 1_initial_migration.js
-  Deploying Migrations...
-  ... 0x4019f4f8468b593acba0f00b007343e800f6e5d8d1027fa1cec6f596e4b0d579
-  Migrations: 0xa2e03149b44d09a78515fa1e1660a1a99f5d0b7f
-Saving successful migration to network...
-  ... 0x1d0e3d6b85f5d4f416d291b340c68eadd45d3ef963c5c56465371d499655c890
-Saving artifacts...
-Running migration: 2_deploy_contracts.js
-  Deploying EsprezzoCrowdsale...
-  ... 0xc5a50944b49d854df2476141883beb3d03eb8f672717d6b0d88bc1339a8b2bd1
-  EsprezzoCrowdsale: 0xff60f02c71e304a739f73750edadc873656f7b5f
-Saving successful migration to network...
-  ... 0x7b049dcaf1822d1d5eb2d43dc7741ceae26d6fbb888e6763bc0f5823b4ea31a8
-
-EZP
-0xf4786de99fa9e98761d43dd03af5eb7a893f85c1# esp-crowdsaale
-# esp-crowdsale
-# esp-crowdsale
-# esp-crowdsale
-# esp-crowdsale
-# esp-crowdsale
-# esp-crowdsale
-# esprezzo-crowdsale
-# esprezzo-crowdsale
